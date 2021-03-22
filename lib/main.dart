@@ -15,7 +15,12 @@ class App extends StatelessWidget {
         body: Center(
 
           child: Text(
-            "This is Todo App"
+            "This is Todo App",
+            style: TextStyle(
+              fontSize: 20.0,
+              fontWeight: FontWeight.bold
+
+            ),
           ),
         ),
         
