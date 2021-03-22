@@ -7,13 +7,19 @@ void main() {
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          "This is Todo App"
+    return MaterialApp(
+        home: Scaffold(
+        appBar: AppBar(
+          title: Text("Todo App"),
         ),
+        body: Center(
+
+          child: Text(
+            "This is Todo App"
+          ),
+        ),
+        
       ),
-      
     );
   }
 }
